@@ -11,7 +11,7 @@ import Footer from './components/Footer'
 import illustrations from "./assets/illustration-mockups.svg";
 
 function App() {
-
+  
   const [heading, setHeading] = useState(
 		"Build The Community Your Fans Will Love"
 	);
@@ -23,13 +23,17 @@ function App() {
 		<>
 			<div className="app">
 				<Header />
-				<img src={illustrations} alt="image" className="illustration" />
-				<Heading heading={heading} />
-				<Paragraph content={content} />
-				<div className="register">
-					<Register />
+				<div className="app_teaser">
+					<img src={illustrations} alt="image" className="illustration" />
+					<div className="app_teaser-text">
+						<Heading heading={heading} />
+						<Paragraph content={content} />
+						<div className="register">
+							<Register />
+						</div>
+					</div>
 				</div>
-        <Footer/>
+				<Footer />
 			</div>
 		</>
 	);
