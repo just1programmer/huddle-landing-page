@@ -1,0 +1,10 @@
+@import '../scss/colors.scss';
+button{
+    padding: 1rem;
+    border: none;
+    border-radius: 1rem;
+    width: 100%;
+    background-color: aliceblue;
+    color: $violet;
+    margin: 1rem auto;
+}

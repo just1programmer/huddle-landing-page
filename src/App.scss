@@ -1,0 +1,32 @@
+@import './scss/colors.scss';
+@import './scss/typography.scss';
+.app{
+    background:url('./assets/bg-mobile.svg');
+    background-color: $violet;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 2rem;
+}
+
+.illustration {
+    margin-top: 2rem;
+    width: 100%;
+}
+
+.register{
+    width: 60%;
+    margin: 0 auto;
+}
+
+h1,p{
+    color: rgb(255, 255, 255);
+    font-size: x-large;
+    padding: 1rem 1rem 0 1rem;
+    text-align: center;
+    font-family: $poppins_font;
+}
+
+p{
+    font-size: small;
+    padding: 0 1.3rem;
+}
